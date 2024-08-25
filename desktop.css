@@ -1,0 +1,194 @@
+
+
+ /* For desktop: */
+      .col-1 {
+        width: 8.33%;
+      }
+
+      .col-2 {
+        width: 16.66%;
+      }
+
+      .col-3 {
+        width: 25%;
+      }
+
+      .col-4 {
+        width: 33.33%;
+      }
+
+      .col-5 {
+        width: 41.66%;
+      }
+
+      .col-6 {
+        width: 50%;
+      }
+
+      .col-7 {
+        width: 58.33%;
+      }
+
+      .col-8 {
+        width: 66.66%;
+      }
+
+      .col-9 {
+        width: 75%;
+      }
+
+      .col-10 {
+        width: 83.33%;
+      }
+
+      .col-11 {
+        width: 91.66%;
+      }
+
+      .col-12 {
+        width: 100%;
+      }
+
+      /* header start here */
+      .nav-logo{
+        text-align: left;
+        
+      }
+      .nav-title{
+        text-align: right;
+        padding-top: 40px;
+      }
+      .nav-menu {
+        flex-direction: row;
+        justify-content: flex-end;
+        padding-top: 55px;
+      }
+      .nav-menu a{
+        background-color: transparent;
+        border-radius: 20px;
+      }
+      .nav-menu a:hover{
+        font-size: 1.3rem;
+      }
+      /* Header ends here */
+
+      /* profile start here */
+
+      .profile{
+        background-color: lightblue;
+      }
+
+      .top-pro-logo{
+         position: absolute;
+         right: 150px;
+         top: 50px;
+      }
+
+
+      .disc p{
+        padding: 20px;
+        width: 50%;
+
+      }
+
+
+      .bottom-pro-logo{
+         position: absolute;
+         left: 150px;
+         bottom: 50px;
+      }
+
+      .profile::after{
+         content: '';
+         display: table;
+         clear: both;
+}
+      /* profile ends here */
+
+
+      /* about start here */
+
+.about-img{
+  padding-top: 80px;
+  padding-right: 80px;
+}
+
+.about-img img{
+  width: 250px;
+  height: 250px;
+}
+
+.about-hr{
+  width: 80%;
+  padding-left: 10%;
+}
+
+.about-desc p{
+  text-align: left;
+   font-family: "Edu AU VIC WA NT Hand", cursive;
+   padding: 1% 5%;
+   margin-top: 5px;
+}
+
+
+.about-me::after{
+  content: '';
+  display: table;
+  clear: both;
+}
+      /* about ends here */
+
+/* echivement start here */
+
+.echivement-contact{
+  padding: 0% 7%;
+  box-sizing: border-box;
+  background-color: darkgreen;
+  color: white;
+}
+.echivement{
+padding-right: 50px;
+}
+.linkable-button{
+padding-left: 80px;
+}
+
+.echivement-contact::after{
+  content: '';
+  display: table;
+  clear: both;
+}
+
+/* echivement ends here */
+
+      /* footer start here */
+      .footer{
+        border: none;
+        border-radius: 3px;
+      }
+.footer-media {
+        flex-direction: row;
+        justify-content: flex-end;
+        text-align: center;
+        padding: 10px;
+      }
+      .footer-media a{
+        background-color: transparent;
+        border-radius: 20px;
+        text-align: center;
+      }
+      .footer-media a:hover{
+        font-size: 1.3rem;
+        color: blue;
+        text-decoration: underline;
+      }
+      .footer-des p{
+        flex-direction: row;
+        margin: 0;
+        font-size: 1.2rem;
+        padding-top: 15px;
+      }
+      
+/* footer ends here */
+
+      
